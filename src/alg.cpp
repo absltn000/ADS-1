@@ -12,7 +12,7 @@ break;
 } else {
 if (arr[i + (j - i + 1) / 2] < value)
 i = i + (j - i + 1) / 2 + 1;
-} else {
+else
 j = i + (j - i + 1) / 2 - 1;
 }
 }
