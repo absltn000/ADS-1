@@ -9,11 +9,10 @@ if (arr[i + (j - i + 1) / 2] == value) {
 number++;
 index = i + (j - i + 1) / 2;
 break;
-}
-else 
+} else
 if (arr[i + (j - i + 1) / 2] < value)
 i = i + (j - i + 1) / 2 + 1;
-else 
+else
 j = i + (j - i + 1) / 2 - 1;
 }
 if (index != -1) {
